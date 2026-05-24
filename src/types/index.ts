@@ -27,7 +27,7 @@ export interface ImageAttachment {
   url: string;
   name: string;
   size: number;
-  contentType: string;
+  contentType: string | null;
 }
 
 export interface QueuedMessage {
